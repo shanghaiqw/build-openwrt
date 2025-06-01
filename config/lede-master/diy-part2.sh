@@ -8,11 +8,6 @@
 
 # ------------------------------- Main source started -------------------------------
 #
-# Add a feed source
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-echo 'src-git pwdep https://github.com/hongweifuture/pwdep.git' >>feeds.conf.default
-echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >>feeds.conf.default
 
 # Modify default theme（FROM uci-theme-bootstrap CHANGE TO luci-theme-material）
 # sed -i 's/luci-theme-bootstrap/luci-theme-material/g' ./feeds/luci/collections/luci/Makefile
